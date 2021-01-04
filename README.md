@@ -1,17 +1,17 @@
 
-# http-fetch
+# hjttp
 
 ## Install
 
 
 ```shell
-yarn add http-fetch
+yarn add hjttp
 ```
 
 or
 
 ```shell
-npm install http-fetch
+npm install hjttp
 ```
 
 
@@ -41,7 +41,7 @@ Common Configuration:
 ## Usage
 
 ```js
-import Http from 'http-fetch'
+import Http from 'hjttp'
 ```
 
 ```js
