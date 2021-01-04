@@ -41,7 +41,7 @@ Common Configuration:
 ## Usage
 
 ```js
-import Http from 'react-native-fetch'
+import Http from 'http-fetch'
 ```
 
 ```js
