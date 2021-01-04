@@ -1,5 +1,5 @@
 {
-    "name": "http-fetch",
+    "name": "hjttp",
     "version": "1.0.0",
     "keywords": [
         "http",
@@ -19,7 +19,7 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "http://github.com/mr-huangjian/http-fetch.git"
+        "url": "http://github.com/mr-huangjian/hjttp.git"
     },
     "dependencies": {
         "querystringify": "2.1.0"
