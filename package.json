@@ -1,0 +1,12 @@
+{
+    "name": "http-fetch",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/mr-huangjian/http-fetch.git"
+    },
+    "dependencies": {
+        "querystringify": "2.1.0"
+    }
+}
