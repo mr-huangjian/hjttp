@@ -1,6 +1,21 @@
 {
     "name": "http-fetch",
     "version": "1.0.0",
+    "keywords": [
+        "http",
+        "request",
+        "response",
+        "fetch",
+        "react-native",
+        "timeout",
+        "cache",
+        "intercept"
+    ],
+    "author": {
+        "name": "huangjian",
+        "email": "mr.huangjian@foxmail.com",
+        "github": "http://github.com/mr-huangjian"
+    },
     "main": "index.js",
     "repository": {
         "type": "git",
