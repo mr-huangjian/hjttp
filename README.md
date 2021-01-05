@@ -1,6 +1,8 @@
 
 # hjttp
 
+Awesome Network Request package, Enjoy it. ✨✨✨
+
 ## Install
 
 
@@ -50,7 +52,7 @@ Http.timeoutMessage = 'Network is timeout, Please try again.'
 ```
 
 ```js
-Http.load({
+const api = Http.load({
     url: 'http://api.website.com/login.do',
     body: {
         'key': value
@@ -63,6 +65,25 @@ Http.load({
         result.ok = result.code == 0
         return result
     },
+})
+
+api.then(data => {
+    /**
+        success
+     */
+}).catch(error => {
+    const {
+        code,
+        message,
+        ok,
+    } = error
+
+    /**
+        when `ok` is equal `false`, it means that the server tell you the operation is not successful.
+        when `ok` is equal `undefined`, it means that your code have error, or the server itself have error.
+     */
+
+    // show toast ...
 })
 ```
 
@@ -140,4 +161,3 @@ Http.apiResponseIntercept = (request, response, option) => {
 - `mr.huangjian@foxmail.com`
 
 ---
-
